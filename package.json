@@ -1,0 +1,23 @@
+{
+  "name": "gms-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LPNinguemganha/gms-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LPNinguemganha/gms-test/issues"
+  },
+  "homepage": "https://github.com/LPNinguemganha/gms-test#readme",
+  "dependencies": {
+    "cypress": "^15.3.0"
+  }
+}
