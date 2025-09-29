@@ -1,9 +1,15 @@
 ///<reference types="cypress"/>
 
+const { afterEach } = require("mocha");
+
 describe('US-012-Funcionalidade: Cadastro de membros', () => {
   beforeEach(() => {
     cy.visit('http://localhost:3000')
   });
+
+  afterEach(() => {
+    cy.screenshot()
+  })
 
   it('Deve buscar filmes com sucesso', () => {
     cy.get('#search-input').type('Hobbit')
